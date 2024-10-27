@@ -9,7 +9,7 @@ function Login () {
      
     const [email,setEmail] = useState()//to store the value of name 
     const [password,setPassword] = useState()
-    const navigate = useNavigate()
+    const navigate = useNavigate() 
 
     const handleSubmit = (e) => {
         e.preventDefault();

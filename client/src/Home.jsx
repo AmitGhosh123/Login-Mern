@@ -1,10 +1,10 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const Home = () => {
+const Home = () => { //to check git push
     return (
         <div className="container-fluid p-5" style={{ background: 'linear-gradient(135deg, #f6d365 0%, #fda085 100%)', minHeight: '100vh' }}>
-            <div className="text-center text-white">
+            <div className="text-center text-white">  
                 <h1 className="display-3 font-weight-bold mb-4">Welcome to Our Amazing Platform!</h1>
                 <p className="lead mb-5" style={{ fontSize: '1.25rem' }}>
                     Discover a world of possibilities. Our platform is here to help you achieve your goals with style and ease.
@@ -16,7 +16,7 @@ const Home = () => {
                     </button>
                     <button className="btn btn-lg btn-outline-light mx-3" style={{ borderColor: '#fff', color: '#fff' }}>
                         Contact Us
-                    </button>
+                    </button> 
                 </div>
             </div>
             <div className="row mt-5">
